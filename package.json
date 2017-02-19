@@ -1,0 +1,18 @@
+{
+  "name": "configapp",
+  "version": "1.0.0",
+  "description": "An app to configure settings on the FRC ILITE 2017 web server",
+  "main": "main.js",
+  "electronVersion": "1.4.15",
+  "scripts": {
+    "test": "node main.js"
+  },
+  "author": "Michael Kelly",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.1.1"
+  },
+  "devDependencies": {
+    "electron-packager": "^8.5.1"
+  }
+}

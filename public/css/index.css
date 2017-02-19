@@ -1,0 +1,34 @@
+*{
+  font-family: 'Open Sans', sans-serif;
+  color:white;
+}
+body{
+  background-color: #3d1196;
+}
+h1{
+  font-weight: 300;
+  text-align: center;
+}
+code{
+  font-family: 'Inconsolata', monospace;
+  font-style: oblique;
+  font-weight: 900;
+  color:#606060;
+  background-color:#202020;
+  padding: 0.3em;
+  border-radius: 0.1em 0.4em;
+}
+code:hover{
+  background-color: #303030;
+}
+#version-header{
+  color:#8080A0;
+}
+.values-list{
+  background-color: #2d0186;
+  margin: auto;
+  width: 90%;
+  height:auto;
+  border-radius: 0.2em;
+  padding: 2em;
+}

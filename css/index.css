@@ -1,0 +1,94 @@
+*{
+  font-family: 'Open Sans', sans-serif;
+  color:white;
+}
+body{
+  background-color: #4B0082;
+}
+h1{
+  font-weight: 300;
+  text-align: center;
+}
+code, input{
+  font-family: 'Inconsolata', monospace;
+  font-style: oblique;
+  font-weight: 900;
+  color:#606060;
+  background-color:#202020;
+  padding: 0.3em;
+  border:none;
+  border-radius: 0.1em 0.4em;
+  transition: background-color 0.1s ease-in-out;
+  margin: auto;
+}
+code:hover, input:hover, input:focus{
+  border:none;
+  background-color: #303030;
+}
+#version-header{
+  color:#8080A0;
+}
+.values-list{
+  position: relative;
+  background-color: #2B0062;
+  margin: auto;
+  width: 90%;
+  height:auto;
+  border-radius: 0.2em;
+  padding: 2em;
+}
+.values-list table{
+  width:100%;
+}
+.values-list table tr td, .values-list table tr th{
+  padding-top: 0.5em;
+}
+.values-list table tr th{
+  font-weight: 600;
+}
+.const-desc{
+  color:#8080A0;
+  font-style: oblique;
+  opacity: 0.8;
+}
+.const-name{
+  font-family: 'Inconsolata', monospace;
+}
+button{
+  position: absolute;
+  border: none;
+  right: 0.5em;
+  border-radius: 0.1em 0.4em;
+  cursor: pointer;
+}
+.remove-button{
+  background: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.remove-button:hover{
+  color:red;
+}
+#add-item{
+  background-color: #00AA00;
+}
+#add-item:hover{
+  background-color: #00DD00;
+}
+#push-changes{
+  background-color: #AAAA00;
+  margin-left: auto;
+  margin-right: 0px;
+}
+#push-changes:hover{
+  background-color: #BBBB00;
+}
+
+.material-icons.md-light.md-inactive {
+  color: rgba(255, 0, 0, 0.3);
+  transition: color 0.2s ease-in-out;
+}
+.material-icons.md-light.md-inactive:hover {
+  color: rgba(255, 0, 0, 1);
+}

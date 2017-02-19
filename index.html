@@ -1,0 +1,46 @@
+<!DOCTYPE=html>
+<html>
+
+<head>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata|Open+Sans:300,400,400i,600" rel="stylesheet">
+  <link href="./css/index.css" rel="stylesheet">
+  <title>ILITE 2017 Robot Configuration App</title>
+</head>
+
+<body>
+  <p id="version-header">&#x269B; Electron <script>document.write(process.versions.electron)</script></p>
+  <h1>Constant Values</h1>
+  <div class="values-list">
+    <select>
+      <option value="volvo">Volvo</option>
+      <option value="saab">Saab</option>
+      <option value="mercedes">Mercedes</option>
+      <option value="audi">Audi</option>
+    </select>
+    <table>
+      <tr>
+        <th></th>
+        <th>Name</th>
+        <th>Description</th>
+        <th>Value</th>
+      </tr>
+    </table>
+    <button id="push-changes">Push</button>
+    <div id='add-item-div'>
+      <h2>Add a New Constant</h2>
+      <form id="add-item-form">
+        Name: <input type='Text' id='Name'> Description: <input type='text' id='Description'> Value: <input type='text' id='Value'>
+      </form>
+      <button id="add-item">Add</button>
+    </div>
+  </div>
+
+<script>window.$ = window.jQuery = require('jquery');</script>
+<script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+<script src="./js/constants.js"></script>
+<script>if (window.module) module = window.module;</script>
+
+</body>
+
+</html>
